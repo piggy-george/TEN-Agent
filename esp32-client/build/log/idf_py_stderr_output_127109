@@ -1,0 +1,68 @@
+CMake Warning at /home/ubuntu/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule
+  components/bootloader/subproject/components/micro-ecc/micro-ecc is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/ubuntu/esp/esp-idf/tools/cmake/idf.cmake:52 (__build_init)
+  /home/ubuntu/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:10 (include)
+
+
+CMake Warning at /home/ubuntu/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32 is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/ubuntu/esp/esp-idf/tools/cmake/idf.cmake:52 (__build_init)
+  /home/ubuntu/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:10 (include)
+
+
+CMake Warning at /home/ubuntu/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c2/esp32c2-bt-lib is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/ubuntu/esp/esp-idf/tools/cmake/idf.cmake:52 (__build_init)
+  /home/ubuntu/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:10 (include)
+
+
+CMake Warning at /home/ubuntu/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c3_family is out of date.
+  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/ubuntu/esp/esp-idf/tools/cmake/idf.cmake:52 (__build_init)
+  /home/ubuntu/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:10 (include)
+
+
+Cloning into '/home/ubuntu/esp/esp-idf/components/bt/controller/lib_esp32c6/esp32c6-bt-lib'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/bt/controller/lib_esp32h2/esp32h2-bt-lib'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/bt/esp_ble_mesh/lib/lib'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/bt/host/nimble/nimble'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/cmock/CMock'...
+Submodule 'vendor/c_exception' (https://github.com/throwtheswitch/cexception.git) registered for path 'components/cmock/CMock/vendor/c_exception'
+Submodule 'vendor/unity' (https://github.com/throwtheswitch/unity.git) registered for path 'components/cmock/CMock/vendor/unity'
+Cloning into '/home/ubuntu/esp/esp-idf/components/cmock/CMock/vendor/c_exception'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/cmock/CMock/vendor/unity'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/esp_coex/lib'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/esp_phy/lib'...
+Cloning into '/home/ubuntu/esp/esp-idf/components/esp_wifi/lib'...
+fatal: Unable to find current revision in submodule path 'components/openthread/lib'
+CMake Error at /home/ubuntu/esp/esp-idf/tools/cmake/git_submodules.cmake:48 (message):
+  Git submodule init failed for components/openthread/lib
+Call Stack (most recent call first):
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/ubuntu/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/ubuntu/esp/esp-idf/tools/cmake/idf.cmake:52 (__build_init)
+  /home/ubuntu/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:10 (include)
+
+

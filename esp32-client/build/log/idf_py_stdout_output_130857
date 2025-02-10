@@ -1,0 +1,3 @@
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig '/home/ubuntu/TEN-AGENT-ESP32/TEN-Agent/esp32-client/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- Initialising new submodule components/protobuf-c/protobuf-c...
